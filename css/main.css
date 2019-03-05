@@ -1,12 +1,19 @@
+/*  assign the body element a different background color at each width */
+
+body {
+	background: #307473;
+}
 
 /* ----------- Tablets larger than 768px wide ----------- */
-@media () {
+@media (min-width: 768px) {
 	body {
-    background: red;
+    background: #693668;
   }
 }
 
 /* ----------- Monitors larger than 1200px wide ----------- */
-@media () {
-
+@media (min-width: 1200px) {
+	body {
+		background: #eaf9d9;
+	}
 }
